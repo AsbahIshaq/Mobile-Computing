@@ -21,36 +21,44 @@
 
 	<div data-role="page" id="mainpage">  
 		<div data-role="header">   
-			<h1> FAST NUCES</h1>  
+			<h1> <img src="fast.png" alt="FAST NUCES" style="float:left; left:0;padding:0; border:0; border-left:0; width:150px; "> </h1>  
 		</div>  
-		<div data-role="content">     
+		<div data-role="content" align="left">     
 			<ul data-role="listview" type="square">   
 				<li><a href="#pageCampuses">Campuses</a></li>   
 				<li><a href="#pageAdmission">Admission</a></li>   
 				<li><a href="#pageDepartment">Department</a></li> 
-                <li><a href="https://maps.google.com/maps?f=d&daddr=berlin">MAP</a></li>  
+                <li><a href="http://maps.google.com/maps?q=33.6556180,73.0154950">Address</a></li>  
+                
+                <!-- https://maps.google.com/maps?f=d&daddr=berlin    ----  http://google.com/maps/bylatlng?lat=33.6556180&lng=73.0154950-->
 			</ul> 
 		</div>  
 		<div data-role="footer">   
 			<h4>All right reserved</h4>  
 		</div> 
 	</div>
-
-
+    
 	<div data-role="page" id="pageCampuses">  
 		<div data-role="header">   
 			<h1> Campuses </h1>  
 		</div>  
 		<div data-role="content">     
 			<ul data-role="listview" type="square">   
-                <div data-role="main" class="ui-content">
                 <div data-role="collapsible">
-				<li><a href="#pageIslamabadCampus">Islamabad</a></li>   
+                    <h3><li><a href="#pageIslamabadCampus">Islamabad</a></li> </h3>
+                    <p> Seated along the Kashmir Highway, the Islamabad Campus holds in view the capital city, with mystic thoughtfulness. A majestic banyan tree strikes the eye of the visitor before the overshadowed Campus's beauty can capture his attention. The visitor experiences an instantaneous dilemma. He does not know whether to admire the panoramic scenery of the city, which lies before his eyes or marvel the academic décor of the Campus. Spread over a 15-acre land, right in the academic hub of the city, Islamabad Campus is steadily expanding both in terms of its area and study programs. </p>
                 </div>
+                <div data-role="collapsible">
+                    <h3><li><a href="#pageLahoreCampus">Lahore</a></li>   </h3>
+                    <p> The Main Campus is located on a six acre site in Shah Latif Town on the National Highway, ten kilometres east of Karachi airport. The campus comprises spacious and fully air conditioned, purpose built classrooms, laboratories, auditorium, seminar rooms, and a spacious Library. The Engineering labs comprise Electronics, Electrical, Control Engineering, Signal Processing, Telecommunications, Networking, Multimedia and Computer Labs. The Computing Labs have latest computers and workstations having Linux and Windows-based environments. The campus is fully networked and it also provides wireless hotspots. </p>
                 </div>
-				<li><a href="#pageLahoreCampus">Lahore</a></li>   
-				<li><a href="#pageKarachiCampus">Karachi</a></li>  
+                <div data-role="collapsible">
+                    <h3><li><a href="#pageKarachiCampus">Karachi</a></li> </h3>
+                    <p> The Lahore Campus, spread over 12.5 acres, is located in Faisal Town which is the heart of greater Lahore. The campus consists of three blocks, which with their striking exterior brickwork and magnificent marble domes are a valuable addition to the rich architectural heritage of Lahore. The facilities consist of fully air-conditioned purpose built class rooms equipped with teaching aids, and a number of computing and engineering laboratories. </p>
+                </div>
+                <li><a href="#mainpage">Back</a></li>  
 			</ul> 
+            
 		</div>  
 		<div data-role="footer">   
 			<h4>All right reserved</h4>  
@@ -62,7 +70,26 @@
 			<h1> Admission </h1>  
 		</div>  
 		<div data-role="content">     
-			 afasfz
+			 <ul data-role="listview" type="square">   
+             	<div data-role="collapsible">
+                    <h3><li>Programs Offered</li>  </h3>
+                    <p> Computer Science <br/> Electrical <br /> BBA  </p>
+                </div>
+                <div data-role="collapsible">
+                    <h3><li>How to apply</li>  </h3>
+                    <p> The procedure for admission is as follows:
+The Admission Application Form can be filled online by following the instructions.
+The online system assigns a unique Application Reference Number (ARN) to each applicant, which must be noted for later use.
+The applicant should then visit the campus
+The applicant will be required to sign a declaration confirming that the information provided in the Application Form by him/her is correct.
+Upon payment of the Application Processing Fee (and any Admission Test Fee), the applicant shall receive a duly signed ADMIT CARD bearing the applicant's TEST ROLL NUMBER and a copy of the Prospectus.
+Out station applicants can send the duly filled application form (along with the above mentioned documents) through post.
+If the application is received through post, the ADMIT CARD and Prospectus would be sent via post.
+Admission of a student automatically stands cancelled if he or she fails in the required exam whose result was not available at the time of admission.</p>
+                </div> 
+                <li><a href="#mainpage">Back</a></li>  
+			</ul> 
+            
 		</div>  
 		<div data-role="footer">   
 			<h4>All right reserved</h4>  
@@ -78,17 +105,19 @@
 			 <ul data-role="listview" type="square">   
              	<div data-role="collapsible">
                     <h3><li><a href="#pageComputerScience">Computer Science</a></li>  </h3>
-                    <p> Content </p>
+                    <p> The purpose of Computer Science degree programs is to produce computer scientists, who can form the backbone of the rapidly growing computer industry. The BS program is focused on developing an in depth understanding of both the theoretical and practical aspects of computer science through a rigorous course work spanning over a period of four years. Students are given unique opportunities to go beyond traditional computer science and get themselves involved in research activities through various research and industrial collaboration programs carried out at the campuses. This ensures a broad based educational foundation that prepares them for leadership roles along diverse career paths. </p>
                 </div>
                 <div data-role="collapsible">
                     <h3><li><a href="#pageElectrical">Electrical</a></li>  </h3>
-                    <p> Content </p>
+                    <p> The Electrical Engineering degree is based on the HEC/PEC approved curriculum. In the first year the students learn the fundamentals of Electrical Engineering supported by essential mathematics and physics courses. These courses are followed by breadth courses which introduce students to different specialties in Electrical Engineering. In the senior year students choose a specialization stream and study advanced courses. Currently specializations are being offered in three areas, Telecommunication Engineering, and Computer Engineering. In the highly competitive job market a young engineer is not only required to be knowledgeable in technical areas but is also expected to have excellent communication and managerial skills and an appreciation of modern day economics to design and implement a cost effective engineering solution. Students are offered courses in communication skills, engineering management and economics to prepare them for challenging environments. Social Science electives and courses in Professional Ethics contribute in enhancing the soft skills and help prepare a well rounded personality. The course work is supported by state of the art engineering labs. During four years, students work in twelve different labs where they perform experiments using state of the art instruments, equipment and simulation software. </p>
                 </div> 
-                    <div data-role="collapsible">
+                <div data-role="collapsible">
                     <h3> <li><a href="#pageBBA">BBA</a></li>  </h3>
-                    <p> Content </p>
+                    <p> Change is the only constant known today to the business world which has to grapple with the challenging realities of an increasingly global and complex marketplace. The Bachelor of Business Administration (BBA) program at FAST attempts to bring out dynamic managers and administrators, well-equipped to meet the challenges posed by this highly competitive global marketplace. To this end, the approach in the classroom is tailored to inculcate an appreciation for both the quantitative and qualitative dimensions of business. Quantitative skills developed through such areas as accounting, statistics, financial modelling and linear programming are combined with qualitative skills in communication, human psychology, marketing and organizational behaviour. Using these diverse skills and tools, BBA graduates are expected to be able to provide timely solutions to real-world business problems – solutions that are cost-effective, efficient and ethically correct. </p>
                 </div>
+                <li><a href="#mainpage">Back</a></li> 
 			</ul> 
+             
 		</div>  
 		<div data-role="footer">   
 			<h4>All right reserved</h4>  
